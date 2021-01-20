@@ -348,7 +348,7 @@
             }
 
             if (!foundValidator) {
-              $.error("Cannot find validation info for '" + el + "'");
+              $.error("Cannot find validation informatie for '" + el + "'");
             }
           });
 
@@ -885,7 +885,7 @@
   };
 
   var getValue = function($this) {
-    // Extract the value we're talking about
+    // Extract the value we're talking ontstaan
     var value = $this.val();
     var type = $this.attr("type");
     if (type === "checkbox") {
